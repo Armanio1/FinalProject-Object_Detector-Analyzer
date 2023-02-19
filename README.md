@@ -19,6 +19,7 @@ detection" by Xiongwei Wu , and "Deep learning in multi-object detection and
 tracking: state of the art" by Sankar K. Pal and Anima Paramanik.
 
 Data and methods
+
 Object detection models include famous SSD Mobilenet and Faster RCNN, as well
 as, a recent state-of-the-art efficient debt and trained on coco object detection dataset.
 We collected our images using python and opencv, after then we labeled them using
@@ -37,6 +38,7 @@ them into the file "coco.names".
 
 
 Results
+
 Our best model achieved an mAP of 0.85 on the testing set, with an average detection
 time of 0.15 seconds per image. The confusion matrix showed that the model had the
 highest detection rate for objects with certain size. The training and validation curves
