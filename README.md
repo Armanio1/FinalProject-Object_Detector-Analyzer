@@ -29,11 +29,11 @@ detection model that can detect multiple objects in an image. For taking images 
 imported time to take little bit of a break between each images, we moved objects,
 ourselves in order to collect different angels, and imported uuid to specify img path.
 We classificated to such labels as [bicycle, car, motorcycle, airplane, bus, ... ] and put
-them into the file "coco.names".![изображение](https://user-images.githubusercontent.com/125818480/219961975-267f70e6-b6a6-4c8e-84df-588e5d82c7c6.png)
-
+them into the file "coco.names".
 
 ![изображение](https://user-images.githubusercontent.com/125818480/219961945-d85de3cd-2792-4912-b671-9ec17501d2a9.png)
-![Uploading изображение.png…]()
+
+![изображение](https://user-images.githubusercontent.com/125818480/219961975-267f70e6-b6a6-4c8e-84df-588e5d82c7c6.png)
 
 
 Results
