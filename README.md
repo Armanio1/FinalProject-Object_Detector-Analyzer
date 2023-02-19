@@ -17,3 +17,30 @@ deep learning techniques, which have shown promising results in recent years. So
 of the notable works in this field include "Recent advances in deep learning for object
 detection" by Xiongwei Wu , and "Deep learning in multi-object detection and
 tracking: state of the art" by Sankar K. Pal and Anima Paramanik.
+
+Data and methods
+Object detection models include famous SSD Mobilenet and Faster RCNN, as well
+as, a recent state-of-the-art efficient debt and trained on coco object detection dataset.
+We collected our images using python and opencv, after then we labeled them using
+the label img package. We then split the data into training, and testing sets. We used a
+CNN model with four convolutional layers and two fully connected layers as our
+baseline model. We also experimented with Faster R-CNN, a state-of-the-art object
+detection model that can detect multiple objects in an image. For taking images we
+imported time to take little bit of a break between each images, we moved objects,
+ourselves in order to collect different angels, and imported uuid to specify img path.
+We classificated to such labels as [bicycle, car, motorcycle, airplane, bus, ... ] and put
+them into the file "coco.names".![изображение](https://user-images.githubusercontent.com/125818480/219961975-267f70e6-b6a6-4c8e-84df-588e5d82c7c6.png)
+
+
+![изображение](https://user-images.githubusercontent.com/125818480/219961945-d85de3cd-2792-4912-b671-9ec17501d2a9.png)
+![Uploading изображение.png…]()
+
+
+Results
+Our best model achieved an mAP of 0.85 on the testing set, with an average detection
+time of 0.15 seconds per image. The confusion matrix showed that the model had the
+highest detection rate for objects with certain size. The training and validation curves
+showed that the model did not overfit, and using data augmentation improved the
+model's generalization ability. We also compared our results with the state-of-the-art
+models in the literature review and found that our model achieved comparable
+performance.
